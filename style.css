@@ -83,6 +83,9 @@ body{
     margin: 0 auto;
     padding: 5px;
 }
+.img-grid{
+    object-fit: contain;
+}
 .sub-grid{
     margin: 0 auto;
     padding: 20%;
