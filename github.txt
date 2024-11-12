@@ -1,0 +1,7 @@
+
+git init
+git add . 
+git commit -m "Pizzaria PagueMenos"
+git branch -M main
+git remote add origin https://github.com/Beatriz-Franca/projetoPizzaria.git
+git push -u origin main
