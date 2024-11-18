@@ -1,0 +1,139 @@
+*{ /*tudo abaixo é dedicado ao estilo da página*/
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(240, 183, 161) ;
+}
+#header{  
+    background-color: firebrick;
+    z-index: 1 ; /*tem como objetivo definir as "camadas" do site, ou seja, quem fica por cima ou por baixo de outros. Para não ocorrer nenhum bug no site.*/
+}
+#h1-header{ 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.h3-header{ 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.link-cabecalho{
+    text-decoration: none;
+    color: white;
+    word-spacing: 5px;
+    font-display: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link-cabecalho-header{
+     color: darkorange;
+     transition: all ease-in-out;
+}
+#navegacao{ 
+    text-align: right;
+    padding-right: 5px;
+}
+.section-1{
+    color: white;
+    background-color: firebrick;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 160px;
+    border-radius: 12px;
+}
+.h2-section1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 27px;
+
+}
+.p1{
+    padding-top: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.p2{
+    padding-top: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+} 
+.section-2{
+    background-color:rgb(168, 47, 47);
+    margin: 0 auto;
+    width: 50%;
+    max-width: 100%;
+    height: 20%;
+    border-radius: 12px;
+    text-align: center;
+}
+.grid{
+    background-color: none;
+    display: contents;
+    height: 10px;
+    width: fit-content;
+    grid-template-columns: repeat(auto-fill, minmax (200px, 2fr));
+    grid-column-gap: 1px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2px;
+}
+.img-pizza{
+    height: fit-content;
+    width: fit-content;
+}
+.sub-grid{
+    margin: 0 auto;
+    padding: 10%;
+    background-color: white;
+}
+.h2-subgrid{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.p-precos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.botao-acao{
+    width: 70%;
+    background-color: rgb(235, 50, 50);
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer{
+    background-color: firebrick;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: bottom;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+} 
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
